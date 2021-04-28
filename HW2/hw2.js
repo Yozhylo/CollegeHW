@@ -68,10 +68,7 @@ switch(choice)
     case '4':
     {
         new nums(3);
-        for(let i = 0; i < 3; i++)
-        {
-            num[i] = prompt("Enter the number to be compared.");
-        }
+        for(var i = 0; i < 3; i++) num[i] = prompt("Enter the number to be compared.");
         let max = getMaxOfArray(nums);
         alert("The greatest number of entered is: " + max);
     }
