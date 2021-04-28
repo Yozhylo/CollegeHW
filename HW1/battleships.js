@@ -1,11 +1,11 @@
-var randomLoc = Math.floor(Math.random() * 5);
-var location1 = randomLoc;
-var location2 = location1 + 1;
-var location3 = location2 + 1;
-var guess;
-var hits = 0;
-var guesses = 0;
-var isSunk = false;
+let randomLoc = Math.floor(Math.random() * 5);
+let location1 = randomLoc;
+let location2 = location1 + 1;
+let location3 = location2 + 1;
+let guess;
+let hits = 0;
+let guesses = 0;
+let isSunk = false;
 
 while (isSunk == false)
 {
@@ -30,5 +30,5 @@ while (isSunk == false)
         else alert("MISS!");
     }
 }
-var stats = "You took " + guesses + " guesses to sink the battleship, " + "which means your accuracy was " + (3/guesses);
+let stats = "You took " + guesses + " guesses to sink the battleship, " + "which means your accuracy was " + (3/guesses);
 alert(stats);
