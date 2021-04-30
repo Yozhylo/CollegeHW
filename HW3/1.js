@@ -11,7 +11,7 @@ function plus()
     document.getElementById('out').innerHTML = result;
 }
 
-function minus();
+function minus()
 {
     num1 = document.getElementById('n1').value;
     num1 = parseInt(num1);
